@@ -1,0 +1,14 @@
+# output
+fig/
+res/
+
+# data (too large for git)
+gray_scales/*.npy
+
+# python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
