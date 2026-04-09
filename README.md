@@ -4,7 +4,7 @@ Phase-field PDE model for micropuncture-induced angiogenesis, coupling vessel ev
 
 ## What this does
 
-Simulates how precision micropuncture accelerates blood vessel growth in collagen scaffolds. The model takes fluorescence microscopy images as initial conditions and evolves a coupled system:
+Simulates how precision micropuncture accelerates blood vessel growth in collagen scaffolds. The model takes fluorescence microscopy images from experiment as initial conditions and evolves a coupled system:
 
 - **phi(x,t)**: phase field representing vessel density (0=tissue, 1=vessel), governed by Allen-Cahn with a double-well potential
 - **c(x,t)**: VEGF concentration, governed by reaction-diffusion with optional localized sources at puncture sites
